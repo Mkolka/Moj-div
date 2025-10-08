@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title></head>
+<body>
+    <div id="b1">
+        <h1>Mój div </h1>
+    </div>
+    <button onclick="document.getElementById('b1').innerHTML='Hello1'">innerHTML</button>
+    <button onclick="console.log('Hello 2')">console.log()</button>
+    <button onclick="window.alert('Hello 3')">window.alert()</button>
+    <button onclick="document.write('Hello 4')">document.write()</button>
+</body>
+</html>
